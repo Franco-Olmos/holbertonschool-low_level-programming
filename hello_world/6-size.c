@@ -8,8 +8,9 @@ int main(void)
 {
 	char charType;
 	int intType;
-	long(int) longintType;
-	long(long(int)) longlongintType;
+	longint longintType;
+	longlongint longlongintType;
+	float floatTyp;
 
 	printf("Size of char: %zu bytes\n", sizeof(charType));
 	printf("Size of int: %zu bytes\n", sizeof(intType));

@@ -1,8 +1,10 @@
 #include "main.h"
-/**
- * main - task4
+ /**
+ *_isalpha - checks for alphabetic characters, upper or lowercase.
  *
- * Return: 1 if c is a letter, else 0
+ * @c: the letter to be checked.
+ *
+ * Return: 1 if c is a letter, 0 otherwise.
  */
 int _isalpha(int c)
 {

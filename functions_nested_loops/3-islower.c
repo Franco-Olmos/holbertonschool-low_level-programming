@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - task3
- *
- * Return: 1 if c is lowercase, else 0 
+ * _islower - checks for lowercase characters
+ * @c: Stores the ascii code of character to be checked
+ * Return: 1 if c is lowercase, return 0 otherwise 
  */
 int _islower(int c)
 {

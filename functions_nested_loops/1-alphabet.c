@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * main - task1
- *Return 0
+ * print_alphabet - prints the alphabet, in lowercase, followed by a new line
  */
 void print_alphabet(void)
 {

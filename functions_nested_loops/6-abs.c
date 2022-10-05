@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - task6
- *
- * Return: 
+ * _abs - computes the absolute value of an integer
+ * @i: is a integer number resived
+ * Return: less than 0 absolute value,greater than 0 the number, otherwise 0
  */
 int _abs(int i)
 {

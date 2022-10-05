@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- * main - task8
- *
- * Return - time
+ * jack_bauer - prints every minute of the day
  */
 void jack_bauer(void)
 {

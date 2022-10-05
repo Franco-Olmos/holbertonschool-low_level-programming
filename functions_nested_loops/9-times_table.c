@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- * main - task9
- *
- * Return timetable
+ * timex_table - function that prints the 9 times table
  */
 void times_table(void)
 {

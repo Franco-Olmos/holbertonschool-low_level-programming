@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - task5
- *
- * Return: 1 if >0, 0 =0, -1 <0
+ * print_sign - prints the sign
+ * @n: argument is a sign that resive
+ * Return: 1 if greater than zero, 0 if zero, -1 if less than zero
  */
 int print_sign(int n)
 {

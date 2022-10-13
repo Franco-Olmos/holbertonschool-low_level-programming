@@ -4,7 +4,6 @@
 /* libraries */
 #include <unistd.h>
 #include <stdio.h>
-#include <stdlib.h>
 
 /* first project */ 
 int _putchar(char);

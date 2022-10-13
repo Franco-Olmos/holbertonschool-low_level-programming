@@ -30,5 +30,6 @@ char *cap_string(char *);
 char *leet(char *);
 
 /* third project */
+char *_memset(char *s, char b, unsigned int n);
 
 #endif

@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/* libraries */
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -17,6 +18,7 @@ void puts2(char *);
 void puts_half(char *);
 void print_array(int *, int);
 char *_strcpy(char *, char *);
+
 /* second project */
 char *_strcat(char *dest, char *src);
 char *_strncpy(char *dest, char *src, int n);

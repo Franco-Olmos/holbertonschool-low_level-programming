@@ -1,23 +1,17 @@
 #include "main.h"
 /**
- * _strchr - fill memory with constante byte
- * @c: a character
- * @s: pointer
- * Return: dest
- **/
-
-char *_strchr(char *s, char c)
+ * _abs - computes the absolute value of an integer
+ * @i: is a integer number resived
+ * Return: less than 0 absolute value,greater than 0 the number, otherwise 0
+ */
+int _abs(int i)
 {
-	for (; *s != c && *s != '\0'; s++)
+	if (i < 0)
 	{
+		i = (-1) * i;
+		return (i);
 	}
-	if (*s == c)
-	{
-		return (s);
-	}
-	else
-	{
-		return ('\0');
-	}
-
+	else if (i > 0)
+		return (i);
+	return (0);
 }

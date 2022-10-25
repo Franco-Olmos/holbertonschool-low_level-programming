@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * malloc_checked - function taht allocates memory using malloc
+ * malloc_checked - Returns a pointer to the allocated memory
  * @b: holds an int value
  * Return: returns pointer of malloc
  */
